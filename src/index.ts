@@ -1,5 +1,7 @@
-import {sqaureNumber} from "./map";
-
+import {squared} from "./map";
+import fruits from './forEach';
+import filteredWords from './filter';
+import slicedMessage from './slice';
 console.log('Try npm run lint/fix!');
 
 const longString =
@@ -36,4 +38,7 @@ export function doSomeStuff(
 
 const numbers = [2,4,6,8];
 
-console.log(sqaureNumber(numbers));
+console.log(squared(numbers));
+console.log(fruits);
+console.log(filteredWords);
+console.log(slicedMessage);
